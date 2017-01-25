@@ -1,0 +1,6 @@
+[ 2017-01-19T14:55:06+08:00 ] 127.0.0.1 /program/uhouse/index.php
+ERR: Syntax Error in template "E:/wamp64/www/program/uhouse/Home/View\Index\index.html"  on line 254 "&lt;/html&gt;" unclosed {foreach} tag
+
+[ 2017-01-19T14:57:49+08:00 ] 127.0.0.1 /program/uhouse/index.php
+ERR: Syntax Error in template "E:/wamp64/www/program/uhouse/Home/View\Index\index.html"  on line 254 "&lt;/html&gt;" unclosed {foreach} tag
+

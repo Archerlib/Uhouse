@@ -1,0 +1,67 @@
+[ 2015-09-04T15:09:55+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-09-04T17:38:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2015-09-04T17:39:11+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010213s ]
+
+[ 2015-09-04T17:41:38+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2015-09-04T17:42:47+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003433s ]
+
+[ 2015-09-04T17:43:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/head
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin_name E:\web\0710\shop\Runtime\Cache\1909b4b060911315185236862d7719cf98852f2e.file.head.html.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.232857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005377s ]
+

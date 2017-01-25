@@ -1,0 +1,30 @@
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20CSS_URL;%20?%3Estyle.css
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Ebiao3.gif
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Edi.jpg
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Ebiao7.gif
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Elogo.gif
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Eyongda_logo.gif
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Ebiao6.gif
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Eecmoban_link.jpg
+ERR: 非法操作:
+
+[ 2015-09-01T16:44:32+08:00 ] 127.0.0.1 /shop/index.php/User/%3C?php%20echo%20IMG_URL;%20?%3Esousuo.gif
+ERR: 非法操作:
+
+[ 2015-09-01T17:14:11+08:00 ] 127.0.0.1 /shop/index.php/User/register
+ERR: Think\Controller:create方法不存在！
+
