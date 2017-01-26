@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <title>UHouse</title>
+    <style type="text/css">
+		* {
+			overflow-y: hidden;
+		}
+	</style>
 </head>
-<frameset rows="10%, 90%" border="0">
-    <frame src="header.html">
-    <frameset cols="70%, 30%" border="0">
-        <frame src="section.html">
-        <frame src="aside.html">
-    </frameset>
-</frameset>
+<frameset rows="9%, 91%" border="0">
+    <frame src="header.html" name="header">
+        <frameset cols="75%, 25%" border="0">
+            <frame src="section.html" name="section">
+            <frame src="aside.html" name="aside">
+        </frameset>
+</frameset><noframes></noframes>
 <body>
-
+	<script type="text/javascript" src="map.js"></script>
 </body>
 </html>
