@@ -11,13 +11,13 @@
 	</style>
 </head>
 <frameset rows="9%, 91%" border="0">
-    <frame src="header.html" name="header">
+    <frame src="{$smarty.const.__CONTROLLER__}/header.html" name="header">
         <frameset cols="75%, 25%" border="0">
-            <frame src="section.html" name="section">
-            <frame src="aside.html" name="aside">
+            <frame src="{$smarty.const.__CONTROLLER__}/section.html" name="section">
+            <frame src="{$smarty.const.__CONTROLLER__}/aside.html" name="aside">
         </frameset>
 </frameset><noframes></noframes>
 <body>
-	<script type="text/javascript" src="mapChange.js"></script>
+	<script type="text/javascript" src="{$smarty.const.JS_URL}/mapChange.js"></script>
 </body>
 </html>

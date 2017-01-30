@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <title>aside</title>
     <style type="text/css">
-        * {
+        *{
             margin: 0;
             padding: 0;
 			overflow-x: hidden;
@@ -58,14 +58,16 @@
             <p align="center" class="list-title-text"></p>
         </div>
         <div class="list-info">
-            <p align="center" class="list-info-info">总价：</p>
-            <p align="center" class="list-info-info">面积：</p>
-            <p align="center" class="list-info-info">户型：</p>
-            <p align="center" class="list-info-info">小区：</p>
-            <p align="center" class="list-info-info">位置：</p>
+             {foreach $info as $k => $v}
+            <p align="center" class="list-info-info">总价：{$v.condo_price}</p>
+            <p align="center" class="list-info-info">面积：{$v.condo_area}</p>
+            <p align="center" class="list-info-info">户型：{$v.condo_type}</p>
+            <p align="center" class="list-info-info">小区：{$v.housing}</p>
+            <p align="center" class="list-info-info">位置：{$v.condo_loc}</p>
+            {/foreach}
         </div>
         <div class="list-img">
-        	<img src="" width="336px" height="180px">
+        	<img src="http://127.0.0.1:8088/uhouse/Uhouse/uhouse/home/public/img/house1.jpg" width="336px" height="180px">
         </div>
     </div>
 </body>

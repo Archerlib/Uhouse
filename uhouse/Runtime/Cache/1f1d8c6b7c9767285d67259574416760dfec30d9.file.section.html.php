@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-30 19:27:40
+         compiled from "E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\Index\section.html" */ ?>
+<?php /*%%SmartyHeaderCode:21074588dbb4957c609-33306010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '1f1d8c6b7c9767285d67259574416760dfec30d9' => 
+    array (
+      0 => 'E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\\Index\\section.html',
+      1 => 1485775652,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '21074588dbb4957c609-33306010',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_588dbb49817b4',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_588dbb49817b4')) {function content_588dbb49817b4($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -35,7 +56,9 @@
 </head>
 <body>
 	<div id="container"></div>
-	<iframe id="calculator" src="{$smarty.const.__CONTROLLER__}/calculator"></iframe>
+	<iframe id="calculator" src="<?php echo @__CONTROLLER__;?>
+/calculator"></iframe>
 	<script type="text/javascript" src="http://127.0.0.1:8088/uhouse/Uhouse/uhouse/home/public/js/map.js"></script>
 </body>
 </html>
+<?php }} ?>
