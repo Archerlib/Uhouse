@@ -6,5 +6,5 @@ namespace Model;
 use Think\Model;
 
 //父类Model: ThinkPHP/Library/Think/Model.class.php
-class Condo_listModel extends Model{
+class rent_condoModel extends Model{
 }

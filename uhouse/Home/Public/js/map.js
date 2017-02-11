@@ -1,4 +1,4 @@
-//基本页面的实现
+﻿//基本页面的实现
 var map = new AMap.Map('container', {
     resizeEnable: true,
     zoom: 10,

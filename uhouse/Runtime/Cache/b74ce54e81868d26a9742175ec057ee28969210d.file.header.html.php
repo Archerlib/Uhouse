@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-30 19:27:39
+<?php /* Smarty version Smarty-3.1.6, created on 2017-02-06 22:18:44
          compiled from "E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\Index\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:31993588dbc5a849fe5-05445632%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b74ce54e81868d26a9742175ec057ee28969210d' => 
     array (
       0 => 'E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\\Index\\header.html',
-      1 => 1485775498,
+      1 => 1486390713,
       2 => 'file',
     ),
   ),
@@ -37,34 +37,35 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             display: inline-block;
             float: left;
             height: 100%;
-            width: 10%;
+            width: 110px;
         }
 		
 		#logo-img {
 			height: 70px;
 			margin-top: 10px;
-			margin-left: 39px;
+			margin-left: 10px;
 		}
 
         #search-box {
             display: inline-block;
             float: left;
             height: 100%;
-            width: 20%;
+            width: 220px;
         }
 		
 		#search-text {
 			height: 20px;
 			margin-top: 35px;
 			width: 200px;
-			margin-left: 91px;
+			margin-left: 9px;
 		}
 
         #demand-box {
             display: inline-block;
             float: left;
             height: 100%;
-            width: 30%;
+            width:30%;
+            width: 576px;
         }
 		
 		.demand-box-box {
@@ -94,7 +95,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             display: inline-block;
             float: left;
             height: 100%;
-            width: 30%;
         }
 
 		#trans-list {
@@ -106,7 +106,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		
 		#trans-list li {
 			display: inline-block;
-			width: 138px;
+			width: 58px;
 			text-align: center;
 			margin-left: auto;
 			border: 1px solid #999;
@@ -125,7 +125,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		#trans-box div {
 			border: 1px solid #7396B8;
 			border-top: none;
-			height: 58px;
+			height: 40px;
 		}
 		
 		.trans-show {
@@ -137,25 +137,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		}
 		
 		.trans-path-text {
-			height: 40px;
-			width: 500px;
+			height: 18px;
+			width: 200px;
 			margin-top: 9px;
-			margin-left: 37px;
-			font-size: 30px;
+			margin-left: 26px;
+			font-size: 16px;
 		}
 		
         #change-box {
             display: inline-block;
             float: left;
             height: 100%;
-            width: 10%;
+            width: 130px;
         }
 		
 		#change-button {
 			height: 26px;
 			width: 106px;
 			margin-top: 32px;
-			margin-left: 43px;
+			margin-left: 12px;
 		}
     </style>
     <script type="text/javascript">
@@ -182,7 +182,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </head>
 <body>
     <div id="logo-box">
-    	<img src="http://127.0.0.1:8088/uhouse/Uhouse/uhouse/home/public/img/UHouse.jpg" height="70" id="logo-img">
+    	<img src="UHouse.jpg" height="70" id="logo-img">
     </div>
     <div id="search-box">
     	<input type="text" id="search-text" placeholder="请输入关键词进行搜索">
@@ -212,42 +212,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     			<option value="area-G">150平以上</option>
     		</select>
     	</div>
-    	<div class="demand-box-box">
-    		<p align="center" class="demand-text">户型：</p>
-    		<select class="demand-option" size="1">
-    			<option value="room-A" selected="selected">不限</option>
-    			<option value="room-B">一室</option>
-    			<option value="room-C">二室</option>
-    			<option value="room-D">三室</option>
-    			<option value="room-E">四室</option>
-    			<option value="room-F">五室</option>
-    			<option value="room-G">五室以上</option>
-    		</select>
-    	</div>
+
     </div>
-    <div id="trans-box">
-    	<ul id="trans-list">
-    		<li class="trans-active">公交</li>
-    		<li>步行</li>
-    		<li>骑行</li>
-    		<li>驾车</li>
-    	</ul>
-    	<div>
-    		<input type="text" class="trans-path-text" placeholder="请输入公交终点进行搜索">
-    	</div>
-    	<div class="trans-hide">
-    		<input type="text" class="trans-path-text" placeholder="请输入步行终点进行搜索">
-    	</div>
-    	<div class="trans-hide">
-    		<input type="text" class="trans-path-text" placeholder="请输入骑行终点进行搜索">
-    	</div>
-    	<div class="trans-hide">
-    		<input type="text" class="trans-path-text" placeholder="请输入驾车终点进行搜索">
-    	</div>
-    </div>
-    <div id="change-box">
-    	<input type="button" id="change-button" value="查看计算器">
-    </div>
+
 </body>
 </html>
 <?php }} ?>

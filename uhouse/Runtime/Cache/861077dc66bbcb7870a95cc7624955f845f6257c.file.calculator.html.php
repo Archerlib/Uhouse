@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-29 17:52:10
+<?php /* Smarty version Smarty-3.1.6, created on 2017-02-06 21:48:58
          compiled from "E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\Index\calculator.html" */ ?>
 <?php /*%%SmartyHeaderCode:27378588dbb4a257736-15453977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '861077dc66bbcb7870a95cc7624955f845f6257c' => 
     array (
       0 => 'E:/wamp64/www/uhouse/Uhouse/uhouse/Home/View\\Index\\calculator.html',
-      1 => 1485489819,
+      1 => 1486387998,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_588dbb4acde5e',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_588dbb4acde5e')) {function content_588dbb4acde5e($_smarty_tpl) {?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
